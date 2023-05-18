@@ -1,32 +1,28 @@
 <script>
-import AppTitle from './components/AppTitle.vue'
+import Header from './components/Header.vue'
 import Jumbo from './components/Jumbo.vue'
+import AppTitle from './components/AppTitle.vue'
+
 export default {
-components : {
-  AppTitle,
-  Jumbo
-}
+  components: {
+    Header,
+    Jumbo,
+    AppTitle
+  }
 
 }
 </script>
 
 <template>
-  <AppTitle/>
-  <Jumbo/>
-
+  <Header />
+  <Jumbo />
+  <AppTitle />
 </template>
 
 <style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
+body {
+  width: 100%;
+  height: 100%;
+  background-color: #222;
 }
 </style>

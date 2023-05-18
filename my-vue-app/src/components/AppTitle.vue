@@ -14,7 +14,7 @@ export default {
 <!-- In style.css abbiamo invece lo stile generico -->
 <style scoped>
 h1>span.yellow {
-    color: yellow;
+    color: rgb(255, 0, 0);
     text-decoration: underline;
 }
 </style>

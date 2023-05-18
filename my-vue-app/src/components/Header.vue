@@ -6,9 +6,9 @@ export default {
 </script>
 
 <template>
-    <nav class="navbar navbar-expand-lg bg-light">
+    <nav class="navbar navbar-expand-xxl bg-light border border-dark">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="#">Vinally</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -19,10 +19,10 @@ export default {
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Features</a>
+                        <a class="nav-link active" href="#">Vinyls</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Pricing</a>
+                        <a class="nav-link active" href="#">About us</a>
                     </li>
                 </ul>
             </div>
@@ -30,13 +30,4 @@ export default {
     </nav>
 </template>
 
-<style scoped>
-/* .header{
-width: 100%;
-height: 80px;
-background-color: green;
-display: flex;
-justify-content: center;
-padding: 10px;
-} */
-</style>
+<style scoped></style>

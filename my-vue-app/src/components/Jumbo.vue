@@ -7,15 +7,24 @@ export default {
 
 <!-- Quando si importa questo componente verrà visualizzato questo HTML al suo posto -->
 <template>
-    <img src="../assets/pexels-photo.jpg" alt="">
+    <div class="imgContainer">
+        <img src="../assets/vinyl.jpg" alt="">
+    </div>
 </template>
 
 <!-- Lo stile da applicare in QUESTO componente è il seguente -->
 <!-- In style.css abbiamo invece lo stile generico -->
 <style scoped>
-img{
+img {
+    object-fit: cover;
+    height: 500px;
     width: 100%;
-    height: 100%;
 }
 
+.imgContainer {
+    width: 100vw;
+    height: 500px;
+
+
+}
 </style>

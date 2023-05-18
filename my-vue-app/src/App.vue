@@ -7,7 +7,7 @@ export default {
   components: {
     Header,
     Jumbo,
-    AppTitle
+    AppTitle,
   }
 
 }
@@ -19,10 +19,4 @@ export default {
   <AppTitle />
 </template>
 
-<style scoped>
-body {
-  width: 100%;
-  height: 100%;
-  background-color: #222;
-}
-</style>
+<style scoped></style>
